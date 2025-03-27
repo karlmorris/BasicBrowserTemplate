@@ -9,9 +9,9 @@ import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var urlEditText: EditText
-    lateinit var goButton: ImageButton
-    lateinit var webView: WebView
+    private lateinit var urlEditText: EditText
+    private lateinit var goButton: ImageButton
+    private lateinit var webView: WebView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
